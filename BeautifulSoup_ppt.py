@@ -11,7 +11,7 @@ import urllib.request as httplib  # 3.x
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context    # 因.urlopen發生問題，將ssl憑證排除
 """
-抓 PTT 美食版的標題 和 href 
+抓 Holo 資訊
 """
 
 url="https://www.ptt.cc/bbs/C_Chat/search?q=holo"
